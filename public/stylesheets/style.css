@@ -1,10 +1,21 @@
 header {
-  font: 20px Helvetica;
-  color: #800080;
+  font: 50px Helvetica;
+  height: 70px;
+}
+header img {
+  height: 70px;
+  vertical-align: middle;
+}
+header span {
+  vertical-align: middle;
+  padding-left: 0.2em;
 }
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+#content {
+  padding: 50px;
 }
 a {
   color: #00b7ff;
@@ -12,4 +23,5 @@ a {
 footer {
   top: 500px;
   right: 500px;
+  padding-top: 50px;
 }
