@@ -1,11 +1,12 @@
 body {
+  width: 1000px;
   padding: 50px;
   font-family: Concert One;
   font-size: 14px;
 }
 body header {
   font-family: Kavoon, cursive;
-  font-size: 50px;
+  font-size: 40px;
   height: 70px;
 }
 body header img {
