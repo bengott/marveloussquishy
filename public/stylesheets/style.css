@@ -1,3 +1,9 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: Concert One;
+  font-size: 14px;
+}
 header {
   font-family: Kavoon, cursive;
   font-size: 45px;
@@ -13,23 +19,17 @@ header span {
   vertical-align: middle;
   padding-left: 0.2em;
 }
+main {
+  width: 1000px;
+  margin: 0 auto;
+}
+main img {
+  height: 400px;
+}
 footer {
   margin-top: 50px;
   height: 50px;
   line-height: 50px;
-}
-body {
-  margin: 0;
-  text-align: center;
-  font-family: Concert One;
-  font-size: 14px;
-}
-#content {
-  width: 1000px;
-  margin: 0 auto;
-}
-#content img {
-  height: 400px;
 }
 a {
   color: #00f;
