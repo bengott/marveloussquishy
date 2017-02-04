@@ -23,7 +23,7 @@ app.use(require('stylus').middleware(path.join(__dirname, 'public')));
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', index);
-app.use('/:comicID', index);
+app.use('/:comicTitle', index);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
