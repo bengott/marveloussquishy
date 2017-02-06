@@ -1,6 +1,5 @@
 var comicSlugs = [
-  'sleep-loves-me',
-  'foo-bar-baz'
+  'sleep-loves-me'
 ];
 
 module.exports = comicSlugs;
